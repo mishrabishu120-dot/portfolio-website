@@ -1,4 +1,4 @@
-# 🚀 Saumy Mishra — Personal Portfolio Website
+# 🚀 Saumy Mishra — Personal Portfolio
 
 <img src="images/profile.jpg" width="150" style="border-radius: 50%;">
 
