@@ -1,6 +1,6 @@
 # 🚀 Saumy Mishra — Personal Portfolio Website
 
-![Portfolio Preview](images/profile.jpg)
+<img src="images/profile.jpg" width="150" style="border-radius: 50%;">
 
 A clean, modern, and fully responsive **Personal Portfolio Website** built entirely with **HTML5**, **CSS3**, and **Vanilla JavaScript** — no frameworks, no dependencies, just pure web standards.
 
