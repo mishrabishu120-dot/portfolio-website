@@ -146,8 +146,8 @@ python3 -m http.server 8000
 **Saumy Mishra**
 - 🎓 B.Tech Computer Science & Software Engineering — NIAT × Vivekananda Global University
 - 💻 Specialization: AI, Full Stack Development, Agentic AI
-- 📧 saumy@example.com
-- 🐙 [github.com/saumymishra](https://github.com/saumymishra)
+- 📧 mishrasaumy72@gmail.com
+- 🐙 [github.com/saumymishra](https://github.com/mishrabishu120-dot)
 
 ---
 
