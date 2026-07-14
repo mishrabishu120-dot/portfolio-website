@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- =============================================
+         META & SEO
+         ============================================= -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Saumy Mishra – Computer Science & Software Engineering Student specializing in AI, Full Stack Development, and Agentic AI."
+    />
+    <meta name="author" content="Saumy Mishra" />
+    <meta
+      name="keywords"
+      content="Saumy Mishra, Portfolio, AI, Full Stack, Software Engineering, Computer Science"
+    />
+
+    <title>Saumy Mishra | Portfolio</title>
+
+    <!-- Google Font: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- =============================================
+         BACK-TO-TOP BUTTON
+         ============================================= -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+      &#8679;
+    </button>
+
+    <!-- =============================================
+         NAVBAR
+         ============================================= -->
+    <header class="navbar" id="navbar">
+      <nav class="nav-container">
+        <!-- Logo / Brand -->
+        <a href="#home" class="nav-logo" aria-label="Home">
+          <span class="logo-bracket">&lt;</span>Saumy
+          <span class="logo-bracket">/&gt;</span>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <ul class="nav-links" id="navLinks" role="list">
+          <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+          <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+          <li><a href="#education" class="nav-link" data-section="education">Education</a></li>
+          <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+          <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+          <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+        </ul>
+
+        <!-- Mobile Hamburger Menu Button -->
+        <button
+          class="hamburger"
+          id="hamburger"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+          aria-controls="navLinks"
+        >
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </nav>
+    </header>
+
+    <!-- =============================================
+         SECTION 1 – HERO
+         ============================================= -->
+    <section id="home" class="hero section">
+      <div class="hero-container">
+        <!-- Hero Text Content -->
+        <div class="hero-text reveal">
+          <p class="hero-greeting">Hi, I'm</p>
+          <h1 class="hero-name">Saumy Mishra</h1>
+          <h2 class="hero-role">Computer Science &amp; Software Engineering Student</h2>
+          <p class="hero-tags">
+            <span class="tag">AI</span>
+            <span class="tag">Full Stack Development</span>
+            <span class="tag">Agentic AI</span>
+          </p>
+          <p class="hero-bio">
+            Passionate about pushing the boundaries of technology through
+            Artificial Intelligence and Full Stack Development. I build
+            intelligent, user-centric software solutions that solve real-world
+            problems—one line of code at a time.
+          </p>
+
+          <!-- CTA Buttons -->
+          <div class="hero-buttons">
+            <a
+              href="resume.pdf"
+              class="btn btn-primary"
+              id="downloadResume"
+              aria-label="Download Resume"
+              download="Saumy_Mishra_Resume.pdf"
+            >
+              &#8595;&nbsp; Download Resume
+            </a>
+            <a href="#projects" class="btn btn-outline" aria-label="View Projects">
+              View Projects &nbsp;&#8594;
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Profile Image -->
+        <div class="hero-image reveal">
+          <div class="image-wrapper">
+            <img
+              src="images/profile.jpg"
+              alt="Saumy Mishra – Profile Photo"
+              class="profile-img floating"
+              width="380"
+              height="380"
+              loading="eager"
+            />
+            <!-- Decorative ring around image -->
+            <div class="image-ring" aria-hidden="true"></div>
+            <!-- Decorative dots -->
+            <div class="image-dots" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll-down indicator -->
+      <div class="scroll-indicator" aria-hidden="true">
+        <span class="scroll-dot"></span>
+      </div>
+    </section>
+
+    <!-- =============================================
+         SECTION 2 – ABOUT ME
+         ============================================= -->
+    <section id="about" class="about section">
+      <div class="container">
+        <!-- Section heading -->
+        <div class="section-header reveal">
+          <span class="section-label">Who I Am</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-underline"></div>
+        </div>
+
+        <div class="about-content reveal">
+          <!-- About image column -->
+          <div class="about-image-col">
+            <div class="about-img-wrapper">
+              <img
+                src="images/profile.jpg"
+                alt="Saumy Mishra"
+                class="about-img"
+                width="400"
+                height="400"
+                loading="lazy"
+              />
+              <div class="about-img-badge">
+                <span class="badge-year">2025</span>
+                <span class="badge-text">Student</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- About text column -->
+          <div class="about-text-col">
+            <h3 class="about-subtitle">
+              Aspiring Software Engineer &amp; AI Enthusiast
+            </h3>
+            <p class="about-para">
+              I am a Computer Science &amp; Software Engineering student passionate
+              about Artificial Intelligence, Full Stack Development, and creating
+              impactful software solutions. I enjoy solving real-world problems
+              through technology, participating in hackathons, and continuously
+              learning modern development tools.
+            </p>
+            <p class="about-para">
+              My journey in tech is driven by curiosity and the desire to build
+              things that matter. Whether it's crafting a slick web interface or
+              designing an AI pipeline, I bring the same energy and dedication to
+              every project.
+            </p>
+
+            <!-- Quick fact cards -->
+            <div class="about-facts">
+              <div class="fact-card">
+                <span class="fact-icon">🎓</span>
+                <div>
+                  <strong>B.Tech CSSE</strong>
+                  <p>NIAT × VGU</p>
+                </div>
+              </div>
+              <div class="fact-card">
+                <span class="fact-icon">🤖</span>
+                <div>
+                  <strong>AI / ML</strong>
+                  <p>Generative &amp; Agentic</p>
+                </div>
+              </div>
+              <div class="fact-card">
+                <span class="fact-icon">💻</span>
+                <div>
+                  <strong>Full Stack</strong>
+                  <p>Web Development</p>
+                </div>
+              </div>
+              <div class="fact-card">
+                <span class="fact-icon">🏆</span>
+                <div>
+                  <strong>Hackathons</strong>
+                  <p>Problem Solver</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================
+         SECTION 3 – EDUCATION
+         ============================================= -->
+    <section id="education" class="education section">
+      <div class="container">
+        <!-- Section heading -->
+        <div class="section-header reveal">
+          <span class="section-label">My Background</span>
+          <h2 class="section-title">Education</h2>
+          <div class="section-underline"></div>
+        </div>
+
+        <!-- Timeline -->
+        <div class="timeline reveal">
+          <!-- Timeline item 1 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-icon">🎓</div>
+              <div class="timeline-body">
+                <span class="timeline-year">2025 – 2029</span>
+                <h3 class="timeline-title">
+                  B.Tech Computer Science &amp; Software Engineering
+                </h3>
+                <p class="timeline-institution">NIAT × Vivekananda Global University</p>
+                <p class="timeline-desc">
+                  Pursuing a Bachelor's degree with focus on software engineering
+                  principles, AI/ML, data structures, and modern web technologies.
+                </p>
+                <span class="timeline-badge">Current</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================
+         SECTION 4 – SKILLS
+         ============================================= -->
+    <section id="skills" class="skills section">
+      <div class="container">
+        <!-- Section heading -->
+        <div class="section-header reveal">
+          <span class="section-label">What I Know</span>
+          <h2 class="section-title">Skills</h2>
+          <div class="section-underline"></div>
+        </div>
+
+        <!-- Skills grid -->
+        <div class="skills-grid">
+          <!-- Languages -->
+          <div class="skill-card reveal">
+            <div class="skill-card-icon">&#x3C;/&#x3E;</div>
+            <h3 class="skill-card-title">Languages</h3>
+            <ul class="skill-list" role="list">
+              <li class="skill-item">
+                <span class="skill-dot"></span>HTML
+              </li>
+              <li class="skill-item">
+                <span class="skill-dot"></span>CSS
+              </li>
+              <li class="skill-item">
+                <span class="skill-dot"></span>JavaScript
+              </li>
+              <li class="skill-item">
+                <span class="skill-dot"></span>Python
+              </li>
+              <li class="skill-item">
+                <span class="skill-dot"></span>SQL
+              </li>
+            </ul>
+          </div>
+
+          <!-- Tools -->
+          <div class="skill-card reveal">
+            <div class="skill-card-icon">🛠️</div>
+            <h3 class="skill-card-title">Tools</h3>
+            <ul class="skill-list" role="list">
+              <li class="skill-item">
+                <span class="skill-dot"></span>Git
+              </li>
+              <li class="skill-item">
+                <span class="skill-dot"></span>GitHub
+              </li>
+              <li class="skill-item">
+                <span class="skill-dot"></span>VS Code
+              </li>
+            </ul>
+          </div>
+
+          <!-- AI -->
+          <div class="skill-card reveal">
+            <div class="skill-card-icon">🤖</div>
+            <h3 class="skill-card-title">AI</h3>
+            <ul class="skill-list" role="list">
+              <li class="skill-item">
+                <span class="skill-dot"></span>Prompt Engineering
+              </li>
+              <li class="skill-item">
+                <span class="skill-dot"></span>Generative AI
+              </li>
+              <li class="skill-item">
+                <span class="skill-dot"></span>Gemini API
+              </li>
+            </ul>
+          </div>
+
+          <!-- Soft Skills -->
+          <div class="skill-card reveal">
+            <div class="skill-card-icon">🌟</div>
+            <h3 class="skill-card-title">Soft Skills</h3>
+            <ul class="skill-list" role="list">
+              <li class="skill-item">
+                <span class="skill-dot"></span>Problem Solving
+              </li>
+              <li class="skill-item">
+                <span class="skill-dot"></span>Communication
+              </li>
+              <li class="skill-item">
+                <span class="skill-dot"></span>Teamwork
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================
+         SECTION 5 – PROJECTS
+         ============================================= -->
+    <section id="projects" class="projects section">
+      <div class="container">
+        <!-- Section heading -->
+        <div class="section-header reveal">
+          <span class="section-label">What I've Built</span>
+          <h2 class="section-title">Projects</h2>
+          <div class="section-underline"></div>
+        </div>
+
+        <!-- Projects grid -->
+        <div class="projects-grid">
+
+          <!-- Project Card 1: CommunityDNA -->
+          <article class="project-card reveal">
+            <div class="project-card-header">
+              <div class="project-icon" aria-hidden="true">🧬</div>
+              <div class="project-number">01</div>
+            </div>
+            <div class="project-card-body">
+              <h3 class="project-title">CommunityDNA</h3>
+              <p class="project-desc">
+                AI-powered community matching platform that intelligently connects
+                people with communities based on their skills, interests, goals, and
+                preferences using AI recommendations.
+              </p>
+              <!-- Tech stack tags -->
+              <div class="tech-stack">
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">Supabase</span>
+                <span class="tech-tag">Gemini API</span>
+                <span class="tech-tag">Tailwind CSS</span>
+              </div>
+            </div>
+            <div class="project-card-footer">
+              <a
+                href="https://community-dna.vercel.app/login"
+                class="btn btn-project"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View CommunityDNA project"
+              >
+                View Project &nbsp;&#8594;
+              </a>
+            </div>
+          </article>
+
+          <!-- Project Card 2: AI Job Application Assistant -->
+          <article class="project-card reveal">
+            <div class="project-card-header">
+              <div class="project-icon" aria-hidden="true">💼</div>
+              <div class="project-number">02</div>
+            </div>
+            <div class="project-card-body">
+              <h3 class="project-title">AI Job Application Assistant</h3>
+              <p class="project-desc">
+                An AI-powered application that analyzes resumes, matches them with
+                suitable job opportunities, identifies skill gaps, and generates
+                personalized cover letters.
+              </p>
+              <!-- Tech stack tags -->
+              <div class="tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Streamlit</span>
+                <span class="tech-tag">Groq API</span>
+              </div>
+            </div>
+            <div class="project-card-footer">
+              <a
+                href="https://ai-job-agent-gr25csbs3lfkh9ehs5frqr.streamlit.app/"
+                class="btn btn-project"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View AI Job Application Assistant project"
+              >
+                View Project &nbsp;&#8594;
+              </a>
+            </div>
+          </article>
+
+          <!-- Project Card 3: Social Media Sentiment Analysis -->
+          <article class="project-card reveal">
+            <div class="project-card-header">
+              <div class="project-icon" aria-hidden="true">📊</div>
+              <div class="project-number">03</div>
+            </div>
+            <div class="project-card-body">
+              <h3 class="project-title">
+                Social Media Sentiment Analysis using AI
+              </h3>
+              <p class="project-desc">
+                An AI-powered sentiment analysis system that analyzes social media
+                posts and classifies them into Positive, Negative, or Neutral
+                sentiments. It provides visual insights, trend analysis, and helps
+                understand public opinion using Natural Language Processing and
+                Machine Learning techniques.
+              </p>
+              <!-- Tech stack tags -->
+              <div class="tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Machine Learning</span>
+                <span class="tech-tag">NLP</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">Scikit-learn</span>
+              </div>
+            </div>
+            <div class="project-card-footer">
+              <a
+                href="#"
+                class="btn btn-project"
+                aria-label="View Social Media Sentiment Analysis project"
+              >
+                View Project &nbsp;&#8594;
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================
+         SECTION 6 – CONTACT
+         ============================================= -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <!-- Section heading -->
+        <div class="section-header reveal">
+          <span class="section-label">Get In Touch</span>
+          <h2 class="section-title">Contact Me</h2>
+          <div class="section-underline"></div>
+        </div>
+
+        <div class="contact-wrapper reveal">
+          <!-- Contact info column -->
+          <div class="contact-info">
+            <h3 class="contact-info-title">Let's Build Something Together</h3>
+            <p class="contact-info-text">
+              Whether you have a project idea, a collaboration proposal, or just
+              want to say hello — my inbox is always open. I'll get back to you as
+              soon as possible!
+            </p>
+
+            <div class="contact-details">
+              <div class="contact-detail-item">
+                <span class="contact-detail-icon">📧</span>
+                <div>
+                  <strong>Email</strong>
+                  <p><a href="mailto:mishrasaumy72@gmail.com" style="color:var(--color-primary);">mishrasaumy72@gmail.com</a></p>
+                </div>
+              </div>
+              <div class="contact-detail-item">
+                <span class="contact-detail-icon">🔗</span>
+                <div>
+                  <strong>LinkedIn</strong>
+                  <p><a href="https://linkedin.com/in/saumy-mishra-575788396" target="_blank" rel="noopener noreferrer" style="color:var(--color-primary);">linkedin.com/in/saumy-mishra-575788396</a></p>
+                </div>
+              </div>
+              <div class="contact-detail-item">
+                <span class="contact-detail-icon">📍</span>
+                <div>
+                  <strong>Location</strong>
+                  <p>India</p>
+                </div>
+              </div>
+              <div class="contact-detail-item">
+                <span class="contact-detail-icon">💼</span>
+                <div>
+                  <strong>GitHub</strong>
+                  <p><a href="https://github.com/mishrabishu120-dot" target="_blank" rel="noopener noreferrer" style="color:var(--color-primary);">github.com/mishrabishu120-dot</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <form
+            class="contact-form"
+            id="contactForm"
+            novalidate
+            aria-label="Contact form"
+          >
+            <!-- Web3Forms Access Key -->
+            <input type="hidden" name="access_key" value="75446cab-9020-4ae1-8bc9-6598ddb12164">
+            <input type="hidden" name="subject" value="New message from your Portfolio Website">
+            <input type="hidden" name="from_name" value="Portfolio Contact Form">
+
+            <!-- Name field -->
+            <div class="form-group">
+              <label for="name" class="form-label">Your Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="form-input"
+                placeholder="John Doe"
+                required
+                autocomplete="name"
+              />
+              <span class="form-error" id="nameError" role="alert"></span>
+            </div>
+
+            <!-- Email field -->
+            <div class="form-group">
+              <label for="email" class="form-label">Your Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-input"
+                placeholder="john@example.com"
+                required
+                autocomplete="email"
+              />
+              <span class="form-error" id="emailError" role="alert"></span>
+            </div>
+
+            <!-- Message field -->
+            <div class="form-group">
+              <label for="message" class="form-label">Your Message</label>
+              <textarea
+                id="message"
+                name="message"
+                class="form-input form-textarea"
+                placeholder="Tell me about your project or just say hi!"
+                rows="5"
+                required
+              ></textarea>
+              <span class="form-error" id="messageError" role="alert"></span>
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+              Send Message &nbsp;✉️
+            </button>
+
+            <!-- Success message (hidden by default) -->
+            <div class="form-success" id="formSuccess" role="status" aria-live="polite">
+              ✅ Thank you! Your message has been sent successfully.
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================
+         FOOTER
+         ============================================= -->
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Footer logo -->
+        <a href="#home" class="footer-logo" aria-label="Go to top">
+          <span class="logo-bracket">&lt;</span>Saumy
+          <span class="logo-bracket">/&gt;</span>
+        </a>
+
+        <!-- Footer links -->
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="#home" class="footer-link">Home</a>
+          <a href="#about" class="footer-link">About</a>
+          <a href="#projects" class="footer-link">Projects</a>
+          <a href="#contact" class="footer-link">Contact</a>
+        </nav>
+
+        <!-- Footer copyright -->
+        <p class="footer-copy">
+          &copy; 2026 Saumy Mishra &mdash; Built with HTML, CSS &amp; JavaScript
+        </p>
+      </div>
+    </footer>
+
+    <!-- External JavaScript (loaded at end of body for performance) -->
+    <script src="script.js"></script>
+  </body>
+</html>
